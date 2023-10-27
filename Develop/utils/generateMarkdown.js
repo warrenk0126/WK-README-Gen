@@ -29,7 +29,7 @@ function renderLicenseSection(license) {
     // You can format the license section here based on your preferences
     return `## License
   
-  This project is licensed under the ${license} license. ${renderLicenseLink(license)}`;
+This project is licensed under the ${license} license. ${renderLicenseLink(license)}`;
   }
   return ''; // If there's no license, return an empty string
 }
@@ -67,11 +67,11 @@ ${licenseSection}
 
 ## Contributing
 
-${data.contributing}
+${data.contribution} // Changed to match the field name
 
 ## Tests
 
-${data.tests}
+${data.test} // Changed to match the field name
 
 ## Questions
 

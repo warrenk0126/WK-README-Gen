@@ -26,7 +26,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Enter contribution guidelines: ',
+        message: 'Enter contribution guidelines: ', // Changed to match field name
     },
     {
         type: 'input',
@@ -56,7 +56,7 @@ function writeToFile(fileName, data) {
         if (err) {
             console.error(err);
         } else {
-            console.log('${filename} generated successfully.');
+            console.log(`${fileName} generated successfully.`);
         }
     });
 }
