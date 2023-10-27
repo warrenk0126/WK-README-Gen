@@ -1,7 +1,9 @@
+// Import necessary modules
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
+// Define an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -26,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Enter contribution guidelines: ', // Changed to match field name
+        message: 'Enter contribution guidelines: ',
     },
     {
         type: 'input',
@@ -51,6 +53,7 @@ const questions = [
     },
 ];
 
+// Function to write data to a file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
@@ -61,6 +64,7 @@ function writeToFile(fileName, data) {
     });
 }
 
+// Main function to initialize the application
 function init() {
     inquirer
         .prompt(questions)
@@ -73,5 +77,5 @@ function init() {
         });
 }
 
-// Function call to initialize app
+// Start the application by calling the init function
 init();

@@ -1,39 +1,37 @@
+// Function to render the license badge based on the selected license
 function renderLicenseBadge(license) {
   if (license) {
-    // You can define logic here to return the badge URL or Markdown for the selected license
-    // For example, you could use a switch statement to return the appropriate badge URL
     switch (license) {
       case 'MIT':
         return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
       case 'Apache':
         return '[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)';
-      // Add more cases for other licenses as needed
       default:
         return '';
     }
   }
-  return ''; // If there's no license, return an empty string
+  return '';
 }
 
+// Function to render a link to the license details
 function renderLicenseLink(license) {
   if (license) {
-    // You can define logic here to return the URL for the license details
-    // For example, you could provide links to the license text or information
     return `[License Details](https://opensource.org/licenses/${license})`;
   }
-  return ''; // If there's no license, return an empty string
+  return '';
 }
 
+// Function to render the license section in the README
 function renderLicenseSection(license) {
   if (license) {
-    // You can format the license section here based on your preferences
     return `## License
-  
+
 This project is licensed under the ${license} license. ${renderLicenseLink(license)}`;
   }
-  return ''; // If there's no license, return an empty string
+  return '';
 }
 
+// Function to generate the complete README content
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
   const licenseSection = renderLicenseSection(data.license);
@@ -67,11 +65,11 @@ ${licenseSection}
 
 ## Contributing
 
-${data.contribution} // Changed to match the field name
+${data.contribution}
 
 ## Tests
 
-${data.test} // Changed to match the field name
+${data.test}
 
 ## Questions
 
@@ -80,4 +78,5 @@ If you have any questions or need further assistance, you can reach me at ${data
 `;
 }
 
+// Export the generateMarkdown function
 module.exports = generateMarkdown;
