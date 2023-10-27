@@ -38,7 +38,10 @@ To generate a README for your project, follow these steps:
    ```shell
    npm start
 
-https://imgur.com/a/QLc0Re7
+<video width="320" height="240" controls>
+  <source src="https://imgur.com/a/QLc0Re7" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## License
 
