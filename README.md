@@ -21,7 +21,15 @@ You just plug the thing in.
 
 ## Usage
 
-Don't @me if it doesn't work.
+To generate a README for your project, follow these steps:
+
+1. Open your terminal in the project directory.
+2. Run the following command:
+
+   ```shell
+   npm start
+
+[![Video Demo](https://i.imgur.com/hmDTVuv.png)](https://i.imgur.com/hmDTVuv.mp4)
 
 ## License
 
