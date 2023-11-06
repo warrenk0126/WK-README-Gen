@@ -1,12 +1,10 @@
-# WK README Gen
+# Sample README
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-The project is a README generator designed to quickly and easily create professional README files for new projects. Writing a high-quality README is an important aspect of any software project, as it provides valuable information to users and potential contributors. This README generator streamlines the process by asking a series of questions and generating a structured README file based on the user's input.
-
-By using this tool, you can create consistent and well-organized READMEs, ensuring that your projects are well-documented and accessible to others.
+This is a sample README for the video submission.
 
 ## Table of Contents
 
@@ -19,29 +17,11 @@ By using this tool, you can create consistent and well-organized READMEs, ensuri
 
 ## Installation
 
-To install this project, follow these steps:
-
-1. Clone the repository from GitHub.
-2. Navigate to the project directory.
-3. Run the following command to install dependencies:
-
-   ```shell
-   npm install
+You just plug the thing in.
 
 ## Usage
 
-To generate a README for your project, follow these steps:
-
-1. Open your terminal in the project directory.
-2. Run the following command:
-
-   ```shell
-   npm start
-
-<video width="320" height="240" controls>
-  <source src="https://i.imgur.com/hmDTVuv.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+Don't @me if it doesn't work.
 
 ## License
 
@@ -49,24 +29,13 @@ This project is licensed under the MIT license. [License Details](https://openso
 
 ## Contributing
 
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository on GitHub.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your branch to your fork on GitHub.
-5. Submit a pull request to the main repository.
+If it worked, me. If not, not me.
 
 ## Tests
 
-To run tests for this project, follow these steps:
-
-1. Open your terminal in the project directory.
-2. Run the following command to execute tests:
-
-   ```shell
-   npm test
+Just do the thing.
 
 ## Questions
 
 If you have any questions or need further assistance, you can reach me at warrenk0126@gmail.com or visit my [GitHub profile](https://github.com/warrenk0126).
+
